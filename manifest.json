@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Video Speed Controller",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Control the video speed",
   "browser_specific_settings": {
     "gecko": {
@@ -10,8 +10,7 @@
         "required": [
           "none"
         ],
-        "optional": [],
-        "description": "This extension does not collect, store, or transmit any user data. It only modifies video playback speed locally in the browser."
+        "optional": []
       }
     }
   },
