@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Video Speed Controller",
+  "version": "1.0",
+  "description": "Alterna velocidade do vídeo entre 1x e 1.8x com a tecla G",
+  "permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
