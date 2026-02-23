@@ -1,9 +1,22 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Video Speed Controller",
   "version": "1.0",
-  "description": "Alterna velocidade do vídeo entre 1x e 1.8x com a tecla G",
-  "permissions": [
+  "description": "Control the video speed",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "videospeedcontroller@gasrlab.com",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ],
+        "optional": [],
+        "description": "This extension does not collect, store, or transmit any user data. It only modifies video playback speed locally in the browser."
+      }
+    }
+  },
+  "permissions": [],
+  "host_permissions": [
     "<all_urls>"
   ],
   "icons": {
